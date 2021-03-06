@@ -1,1 +1,93 @@
-# mah_jam
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>HTML Frame</title>
+	<h2>HTML Frame Head</h2>
+</head>
+
+<style>
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+</style>
+
+<body>
+
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe src="demo_iframe.htm" name="iframe_a" style="border: 2px solid red; height:200px;width:100%" title="Iframe Example">
+	
+</iframe>
+
+<p>
+	<a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
+</p>
+<!-- 
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe> -->
+<h3>My First JavaScript</h3>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo">This is a time demonstration. & JavaScript can change the style of an HTML element</p>
+
+<div>
+<p id="db">JavaScript can change the style of an HTML element.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("db").style.fontSize = "25px"; 
+  document.getElementById("db").style.color = "red";
+  document.getElementById("db").style.backgroundColor = "yellow";        
+}
+</script>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+</div>
+
+
+<div>
+	<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "I:/HTML/image/pic_bulboff.gif"
+  } else {
+    pic = "I:/HTML/image/pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="I:\HTML\image\pic_bulboff.gif" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+
+</div>
+
+<p>&#128512;</p>
+
+<p style="font-size:48px">
+&#128512; &#128516; &#128525; &#128151; &#128513; &#128514; &#128515; &#128517; &#128507; 	&#128508; &#128509; &#128510; &#128511;
+</p>
+
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<aside>
+<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+
+
+</body>
+</html>
