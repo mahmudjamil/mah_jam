@@ -1,1 +1,157 @@
-# mah_jam
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('I:/HTML/image/date Vitamin.jpg');
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-size: 100%
+}
+-------------------------
+ 	#t01{
+	font-family: arial,sans-serif;
+	border-collapse: collapse;
+	/width: 100%
+}
+#t01 td,th{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+#t01 tr:nth-child(even){
+	background-color: #dddddd;
+}
+--------------------------
+#menu{
+	  background-color: #333333;
+}
+
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+#menu ul li {
+  float: left;
+}
+
+#menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  background-color: #111111;
+}
+----------------------
+</style>
+</head>
+<body>
+
+<h2>Background No Repeat</h2>
+
+<div id="menu">
+	<ul id="ulm">
+    <li><a href="#home">Home</a></li>
+	<li><a href="#news">News</a></li>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#about">About</a></li>
+</ul>
+</div> 
+
+
+<p>You can avoid the <span style="color:blue;font-weight:bold">image</span>  from being repeated by setting the <span style="border: 1px solid black">background-repeat</span>  property to <span style="color:darkolivegreen;font-weight:bold">"no-repeat".</span></p>
+
+
+
+
+<h2>HTML Table</h2>
+<table id="t01">
+<caption>Company Information</caption>
+	<tr>
+		<th>Company</th>
+		<th>Contact</th>
+		<th>Country</th>
+	</tr>
+	<tr>
+	<td>Alfreds Futterkiste</td>
+	<td>Maria Anders</td>
+	<td>Germany</td>
+	</tr>
+	<tr>
+		<td>Centro comercial Moctezuma</td>
+		<td>Francisco Chang</td>
+		<td>Maxico</td>
+	</tr>
+	<tr>
+		<td>Ernst Handel</td>
+		<td>Roland Mendel</td>
+		<td>Ausrtria</td>
+	</tr>
+	
+</table>
+
+<h2>Basic HTML Tabel Without Border</h2>
+
+<table style="width: 100%">
+	<style>
+		/*table{
+			border-spacing: 15px;
+		}
+	</style>
+	<tr>
+		<th>Firstname</th>
+		<th>Lastname</th>
+		<th colspan="2">Age</th>
+		<th>Sex</th>
+	</tr>
+	<tr>
+		<td>Mahmudur</td>
+		<td>Rahman</td>
+		<td>33</td>
+		<td>Male</td>
+	</tr>
+	<tr>
+		<td>Buyzid</td>
+		<td>Hossain</td>
+		<td>35</td>
+		<td>Male</td>
+	</tr>
+
+</table>
+
+<ul style="list-style-type:circle;">
+<li>Tsl Design Section</li>
+<li>Tsl Billing Section</li>
+<ul>
+	<li>Tsl Meeting Room</li>
+</ul>
+</ul>
+	<ol type="A">
+		<li>Programmer</li>
+		<li>Ass. Programmer</li>
+		<li>System Engineer</li>
+	</ol>
+
+<h2>Navigation Menu</h2>
+<p>In this example, we use CSS to style the list horizontally, to create a navigation menu: </p>
+
+
+
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div> 
+
+</body>
+</html>
+
